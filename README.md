@@ -2,5 +2,4 @@
 
 Bootstrap3
 
-
-###![alt text](https://in.pinterest.com/cff7abcc-c261-4f69-b6cf-1b6a67a02dc7)
+![Payment GateWay Template Image](https://github.com/Meera9/payment-gateway-template/blob/main/images/MT.png)
