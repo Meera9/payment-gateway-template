@@ -1,0 +1,129 @@
+#card-chip {
+    box-shadow: 1px 1px 1px 1px #00000017;
+    border-radius: 24px;
+    position: relative;
+    top: -6rem;
+    left: 0;
+    right: 0;
+    height: 330px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.logo {
+    width: 15%;
+}
+
+.timer-box {
+    background: black;
+    box-shadow: 1px 1px 1px 1px #00000017;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 50px;
+    border-radius: 8px;
+}
+
+#main-card-chip-section {
+    margin-top: 2rem;
+    background: linear-gradient(to bottom, #E3EAEE 0%, #EFF4F8 100%)
+}
+
+.fa-circle {
+    font-size: 5px;
+}
+
+.card-last-digit {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.card-holder-section {
+    position: absolute;
+    bottom: 0;
+}
+
+#master-card {
+    width: 100%;
+}
+
+.card-date,
+.card-master {
+    display: inline-block;
+    width: 48%;
+}
+
+#amount-section table td:nth-child(even) {
+    text-align: right;
+}
+
+.dashed-line {
+    border-bottom: 1px dashed grey;
+}
+
+.price-final {
+    font-weight: 900;
+}
+
+.currency {
+    font-size: 18px;
+    font-weight: 100;
+    color: grey;
+}
+
+.text-grey {
+    color: grey;
+}
+
+#payment-gateway {
+    background: #ffffff;
+    padding: 40px;
+    margin: 5rem auto;
+}
+
+body {
+    background: #337ab7 !important;
+    /* background: url('/images/bg-main.jpg'); */
+    background-position: bottom;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.form-control {
+    padding: 30px !important;
+    margin-bottom: 33px !important;
+    font-size: 35px !important;
+    text-align: center !important;
+}
+
+button {
+    position: relative;
+    bottom: 0;
+    padding: 15px !important;
+    color: #ffffff;
+    background: #196BFF !important;
+}
+
+label {
+    font-size: 16px !important;
+}
+
+.cross-line {
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.small-info {
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    padding: 0;
+    color: #8080808c;
+}
+
+.date {
+    width: 200px !important;
+}

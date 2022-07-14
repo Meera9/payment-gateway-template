@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>MT</title>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='/custom.css' rel='stylesheet'>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/3a3b70c145.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container" id="payment-gateway">
+        <div class="row">
+            <div class="col-sm-8 col-xs-12">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="/images/logo.jpg" alt="log" class="logo" />
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <span class="timer-box">0</span>
+                        <span class="timer-box">1</span>
+                        <span class="dot">:</span>
+                        <span class="timer-box">0</span>
+                        <span class="timer-box">0</span>
+                    </div>
+                </div>
+                <form class="payment-form">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group row">
+                                <p class="mb-5">
+                                    <label for="card-number" class="col-sm-12 col-form-label">Card Number</label>
+                                    <span class="col-sm-12 small-info">Enter 16 Digit Number</span>
+                                </p>
+                                <div class="col-sm-12">
+                                    <input type="tel" class="form-control" id="card-number" placeholder="&#8226;&#8226;&#8226;&#8226;  &#8226;&#8226;&#8226;&#8226; &#8226;&#8226;&#8226;&#8226; &#8226;&#8226;&#8226;&#8226;">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputPassword" class="col-sm-3 col-form-label">CVV Number
+                                    <p class="small-info">Enter 16 Digit Number Of Card</p>
+                                </label>
+
+                                <div class="col-sm-9">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder=" &#8226;&#8226;&#8226;">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputPassword" class="col-sm-3 col-form-label">Expiry Date
+                                    <p class="small-info">Enter 16 Digit Number Of Card</p>
+                                </label>
+
+                                <div class="col-sm-4">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="09">
+                                </div>
+                                <div class="col-sm-1">
+                                    <h6 class="cross-line">/</h1>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="22">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputPassword" class="col-sm-3 col-form-label">Password
+                                    <p class="small-info">Enter 16 Digit Number Of Card</p>
+                                </label>
+                                <div class="col-sm-9">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <button class="btn btn-lg btn-primary w-100">Pay Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" id="main-card-chip-section">
+                    <div class="card-body">
+                        <div class="card p-4" id="card-chip">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <i class="fa-solid fa-sim-card fa-3x"></i>
+                                </div>
+                                <div class="col-sm-6 text-right">
+                                    <i class="fa-solid fa-wifi fa-2x"></i> </div>
+                            </div>
+                            <div class="row">
+                                <div class="card-holder-section m-3">
+                                    <h4>Mirali Thanki</h4>
+                                    <p>
+                                        <i class="fa fa-circle"></i>
+                                        <i class="fa fa-circle"></i>
+                                        <i class="fa fa-circle"></i>
+                                        <i class="fa fa-circle"></i>
+                                        <span class="ml-2 card-last-digit">3456</span>
+                                    </p>
+
+                                    <p class="card-date">
+                                        <strong>09/22</strong>
+                                    </p>
+                                    <p class="card-master">
+                                        <img src="/images/master-card.png" alt="master-card" id="master-card" class="text-right">
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row" id="amount-section">
+                            <div class="col-sm-12">
+                                <table class="table table-borderless">
+                                    <thead>
+                                        <tr>
+                                            <td>Company</td>
+                                            <td><strong>Apple</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="col">Order</td>
+                                            <td><strong>#44556677</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="col">Product</td>
+                                            <td><strong>MACBook</strong></td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="col">VAT(20%)</td>
+                                            <td><strong>$100.00</strong></td>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <hr class="dashed-line" />
+                            </div>
+                        </div>
+                        <div class="final-amount-section row">
+                            <div class="col-sm-12">
+                                <p class="text-grey">You have to Pay</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p>
+                                    <h2 class="price-final">549.00 <span class="currency">USD</span></h1>
+                                </p>
+
+                            </div>
+                            <div class="col-sm-6 text-right">
+                                <p>
+                                    <i class="fa-solid fa-receipt fa-3x"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
